@@ -1,24 +1,24 @@
 site:
-  name: Widows Sons — Gran Capítulo
-  site: 'https://www.wsriouruguay.com'
+  name: Widows Sons — Gran Capítulo de Uruguay
+  site: 'https://www.wsuruguay.com' # <--- CORREGIDO: Dominio oficial del Gran Capítulo
   base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
-# Metadatos SEO
+# Metadatos SEO (Elevados al enfoque institucional nacional)
 metadata:
   title:
-    default: Widows Sons — Gran Capítulo
-    template: '%s — Widows Sons'
-  description: 'Sitio oficial de los Widows Sons, Capítulo Rio Uruguay. Fraternidad, motociclismo y caridad en el litoral uruguayo.'
+    default: Gran Capítulo de Widows Sons Uruguay
+    template: '%s — Widows Sons Uruguay'
+  description: 'Sitio oficial del Gran Capítulo de Widows Sons Uruguay. Máxima autoridad, orden rector y regularidad de los Maestros Masones motociclistas.' # <--- CORREGIDO: Enfoque nacional
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Widows Sons — Gran Capítulo
+    site_name: Widows Sons — Gran Capítulo de Uruguay
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/default-gc.png' # <--- NUEVO: Archivo renombrado para destruir el caché de WhatsApp
         width: 1200
         height: 628
     type: website
