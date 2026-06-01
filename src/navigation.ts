@@ -40,6 +40,6 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/tu_cuenta_gran_capitulo' },
   ],
   footNote: `
-    Diseñado por STEB · Gran Capítulo de Widows Sons Uruguay © 2026
+    Diseñado por STEB · Gran Chapter Widows Sons Uruguay © 2026
   `,
 };
