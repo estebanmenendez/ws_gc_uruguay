@@ -1,5 +1,5 @@
 site:
-  name: Widows Sons — Gran Capítulo de Uruguay
+  name: Widows Sons — Gran Chapter de Uruguay
   site: 'https://www.wsuruguay.com' # <--- CORREGIDO: Dominio oficial del Gran Capítulo
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Metadatos SEO (Elevados al enfoque institucional nacional)
 metadata:
   title:
-    default: Gran Capítulo de Widows Sons Uruguay
+    default: Gran Chapter Widows Sons Uruguay
     template: '%s — Widows Sons Uruguay'
-  description: 'Sitio oficial del Gran Capítulo de Widows Sons Uruguay. Máxima autoridad, orden rector y regularidad de los Maestros Masones motociclistas.' # <--- CORREGIDO: Enfoque nacional
+  description: 'Sitio oficial del Gran Chapter de Widows Sons Uruguay. Máxima autoridad, orden rector y regularidad de los Maestros Masones motociclistas.' # <--- CORREGIDO: Enfoque nacional
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Widows Sons — Gran Capítulo de Uruguay
+    site_name: Widows Sons — Gran Chapter Uruguay
     images:
       - url: '~/assets/images/default-gc.png' # <--- NUEVO: Archivo renombrado para destruir el caché de WhatsApp
         width: 1200
