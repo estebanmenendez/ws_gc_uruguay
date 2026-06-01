@@ -5,7 +5,7 @@ export const headerData = {
     { text: 'Inicio', href: '/' },
     { text: 'Quiénes Somos', href: getPermalink('/about') },
     { text: 'Eventos', href: getBlogPermalink() },
-    { text: 'Colabora', href: getPermalink('/colabora') }, //  <-- Nueva sección
+    { text: 'Colabora', href: getPermalink('/colabora') },
     { text: 'Contacto', href: '/#contacto' },
   ],
   actions: [{ text: 'Contacto', href: '/#contacto', variant: 'primary' }],
@@ -15,31 +15,31 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Capítulo',
+      title: 'Jurisdicción',
       links: [
         { text: 'Quiénes Somos', href: getPermalink('/about') },
-        { text: 'Eventos', href: getBlogPermalink() },
-        { text: 'Membresía', href: '/#contacto' },
+        { text: 'Asambleas y Eventos', href: getBlogPermalink() },
+        { text: 'Membresía Nacional', href: '/#contacto' },
       ],
     },
     {
-      title: 'Comunidad',
+      title: 'Capítulos Oficiales',
       links: [
-        { text: 'Instagram', href: 'https://instagram.com/wsriouruguay' },
-        { text: 'Facebook', href: 'https://facebook.com/tu_cuenta' },
+        { text: 'Capítulo Río Uruguay', href: 'https://www.wsriouruguay.com' },
+        { text: 'Capítulo Río Cuareim', href: 'https://www.riocuareim.com' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Fraternidad', href: '#' },
-    { text: 'Servicio', href: '#' },
-    { text: 'Honor', href: '#' },
+    { text: 'Regularidad', href: '#' },
+    { text: 'Unión', href: '#' },
+    { text: 'Filantropía', href: '#' },
   ],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/wsriouruguay' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/tu_cuenta' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/ws_granchapter_uruguay' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/tu_cuenta_gran_capitulo' },
   ],
   footNote: `
-    Diseñado por STEB · Widows Sons Rio Uruguay © 2026
+    Diseñado por STEB · Gran Capítulo de Widows Sons Uruguay © 2026
   `,
 };
