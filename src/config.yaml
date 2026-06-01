@@ -1,5 +1,5 @@
 site:
-  name: Widows Sons — Gran Chapter de Uruguay
+  name: Widows Sons — Gran Chapter Uruguay
   site: 'https://www.wsuruguay.com' # <--- CORREGIDO: Dominio oficial del Gran Capítulo
   base: '/'
   trailingSlash: false
