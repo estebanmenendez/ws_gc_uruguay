@@ -12,143 +12,148 @@ import img1 from '~/assets/images/img1.png';
 import img2 from '~/assets/images/img2.png';
 
 const metadata = {
-  title: 'Widows Sons — Capítulo Rio Uruguay',
+  title: 'Gran Capítulo de Widows Sons Uruguay — Sitio Oficial',
   ignoreTitleTemplate: true,
 };
 
-// Forzamos el cambio de nombre en el footer directamente aquí
+// Forzamos el cambio de nombre en el footer directamente aquí para la máxima autoridad
 const footerData = {
   secondaryLinks: [
-    { text: 'Diseñado por Steb · Widows Sons Rio Uruguay © 2026', href: '#' },
+    { text: 'Diseñado por Steb · Gran Capítulo de Widows Sons Uruguay © 2026', href: '#' },
   ],
 };
 ---
 
 <Layout metadata={metadata} footerData={footerData}>
 
+  <!-- HERO PRINCIPAL: ENFOQUE NACIONAL -->
   <section class="relative h-screen flex items-center justify-center bg-black overflow-hidden">
     <div class="absolute inset-0 z-0">
-      <img src={img1.src} alt="Fondo" class="w-full h-full object-cover opacity-60" />
+      <img src={img1.src} alt="Fondo Oficial Gran Capítulo" class="w-full h-full object-cover opacity-60" />
       <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black"></div>
     </div>
     <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
-      <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 uppercase" style="text-shadow: 3px 3px 6px rgba(0,0,0,0.9);">
-        WIDOWS SONS <br /> <span class="text-[#d4af37]">CAPÍTULO RIO URUGUAY</span>
+      <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 uppercase tracking-wider" style="text-shadow: 3px 3px 6px rgba(0,0,0,0.9);">
+        WIDOWS SONS <br /> <span class="text-[#d4af37]">GRAN CAPÍTULO DE URUGUAY</span>
       </h1>
-      <p class="text-xl md:text-2xl text-zinc-200 mb-10 font-medium">
-        Asociación Internacional de Maestros Masones Motociclistas.
+      <p class="text-xl md:text-2xl text-zinc-200 mb-10 font-medium tracking-wide">
+        Máxima Autoridad y Órgano Rector de la Asociación Internacional de Maestros Masones Motociclistas.
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="#contacto" class="bg-[#d4af37] text-black font-bold py-4 px-10 rounded-full no-underline uppercase tracking-widest hover:bg-white transition-colors">Unirse a la Ruta</a>
-        <a href="#eventos" class="text-white font-semibold py-4 px-10 no-underline hover:text-[#d4af37]">Próximos Eventos ↓</a>
+        <a href="#contacto" class="bg-[#d4af37] text-black font-bold py-4 px-10 rounded-full no-underline uppercase tracking-widest hover:bg-white transition-colors">Contactar Secretaría</a>
+        <a href="#eventos" class="text-white font-semibold py-4 px-10 no-underline hover:text-[#d4af37]">Actividades Oficiales ↓</a>
       </div>
     </div>
   </section>
 
+  <!-- SECCIÓN INSTITUCIONAL: REGULARIDAD Y CARTA PATENTE -->
   <Content
     id="quienes-somos"
     isReversed
-    tagline="Nuestra Historia"
-    title="Tradición y Camino"
+    tagline="Nuestra Autoridad"
+    title="Gobernanza y Orden en la Ruta"
     items={[
       {
-        title: 'Presencia Institucional',
-        description: 'Consolidamos la presencia de los Widows Sons en el Uruguay, manteniendo la regularidad y los principios que rigen a nuestra hermandad a nivel global.',
-        icon: 'tabler:building-community',
+        title: 'Regularidad y Custodia',
+        description: 'Velamos por la regularidad de nuestros miembros activos y el fiel cumplimiento de los principios universales de la Masonería en cada rincón del país.',
+        icon: 'tabler:shield-check',
       },
       {
-        title: 'Atención Directa',
-        description: 'Si eres un Hermano buscando contacto o tienes una consulta institucional, puedes escribirnos directamente.',
+        title: 'Gestión y Coordinación',
+        description: 'Canal oficial del Gran Capítulo para consultas de membresía nacional, cartas patentes, y relaciones institucionales.',
         icon: 'tabler:message-circle',
         callToAction: {
-          text: 'Enviar Mensaje',
+          text: 'Contacto Oficial',
           href: '#contacto',
           variant: 'link',
         },
       },
       {
-        title: 'Membresía y Consulta',
-        description: 'Información sobre requisitos de ingreso para Maestros Masones y actividades de nuestros Capítulos.',
-        icon: 'tabler:shield-check',
+        title: 'Fondo Nacional de Filantropía',
+        description: 'Centralizamos y auditamos los fondos recaudados para distribuirlos de forma estratégica en las misiones sociales de los capítulos del Uruguay.',
+        icon: 'tabler:building-community',
         callToAction: {
-          text: 'Consultar Membresía',
-          href: '#contacto',
+          text: 'Ver Programa de Apoyo',
+          href: '/colabora',
           variant: 'link',
         },
       },
     ]}
     image={{
       src: img2,
-      alt: 'Detalle institucional Widows Sons',
+      alt: 'Detalle institucional Gran Capítulo Widows Sons',
     }}
   >
     <Fragment slot="content">
       <div class="text-muted dark:text-slate-400">
         <p class="mb-4">
-          La llegada de los <strong>Widows Sons</strong> al Uruguay representó un hito en la historia del motociclismo masónico regional. Lo que comenzó como una expresión de libertad en las rutas de Estados Unidos a finales de los 90, encontró en nuestra tierra un terreno fértil basado en la rica tradición masónica del país.
+          El <strong>Gran Capítulo de Widows Sons Uruguay</strong> es el cuerpo rector supremo de la asociación en el territorio nacional. Nuestra labor se fundamenta en la rica herencia histórica y moral de la Masonería uruguaya, adaptando los conceptos de fraternidad universal a la mística y el dinamismo del motociclismo.
         </p>
         <p class="mb-4">
-          A nivel nacional, la importancia de la hermandad radica en su capacidad de unir a Hermanos de distintos Orientes bajo una pasión común, fortaleciendo la cadena de unión más allá de las puertas de los Templos. El <strong>Capítulo Rio Uruguay</strong> surge como una pieza clave en esta estructura, descentralizando la actividad y llevando el mensaje de fraternidad al litoral.
+          Como institución nacional, otorgamos las cartas patentes correspondientes que avalan y regulan las operaciones de las extensiones territoriales de la orden. El crecimiento coordinado de la hermandad garantiza que la ayuda civil sea efectiva, transparente y de alto impacto estructural en la sociedad.
         </p>
         <p>
-          Hoy, ser parte de esta asociación en Uruguay significa portar un parche que es sinónimo de auxilio al necesitado y respeto por las leyes cívicas, reafirmando que el verdadero camino del Maestro se construye kilómetro a kilómetro, con honor y discreción.
+          Portar los emblemas oficiales legítimos representa un compromiso ineludible con la rectitud, el civismo y el auxilio desinteresado al necesitado, demostrando kilómetro a kilómetro el verdadero carácter del Maestro Masón.
         </p>
       </div>
       
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mt-8 mb-2">
-        Legado en el Uruguay
+        Unidad Nacional
       </h3>
       <p class="text-lg text-[#d4af37] font-semibold italic">
-        Una hermandad que trasciende las fronteras, unida por el asfalto y la virtud.
+        Una misma cadena de unión bajo un único orden institucional en todo el territorio uruguayo.
       </p>
     </Fragment>
   </Content>
 
+  <!-- VALORES Y PILARES CENTRALES -->
   <Features
     id="pilares"
-    tagline="Valores"
-    title="Pilares del Capítulo"
+    tagline="Principios"
+    title="Pilares de la Orden Nacional"
     items={[
-      { title: 'Fraternidad', description: 'Lazos indisolubles entre Hermanos.', icon: 'tabler:users' },
-      { title: 'Libertad', description: 'El motociclismo como expresión de libertad personal.', icon: 'tabler:wind' },
-      { title: 'Caridad', description: 'Asistencia a la viuda y el huérfano.', icon: 'tabler:heart' },
-      { title: 'Internacional', description: 'Parte de una hermandad global.', icon: 'tabler:world' },
-      { title: 'Maestría', description: 'Integrado por Maestros Masones.', icon: 'tabler:certificate' },
-      { title: 'Pasión', description: 'Motociclismo seguro y compañerismo.', icon: 'tabler:motorbike' },
+      { title: 'Regularidad', description: 'Integrado por Maestros Masones activos.', icon: 'tabler:gavel' },
+      { title: 'Institucionalidad', description: 'Gobernanza transparente bajo Carta Patente.', icon: 'tabler:certificate' },
+      { title: 'Filantropía', description: 'Asistencia coordinada a nivel país.', icon: 'tabler:heart' },
+      { title: 'Unidad', description: 'Cohesión absoluta entre capítulos subordinados.', icon: 'tabler:users' },
+      { title: 'Fraternidad Global', description: 'Reconocimiento y lazos internacionales.', icon: 'tabler:world' },
+      { title: 'Civismo', description: 'Respeto absoluto por las leyes de la vía pública.', icon: 'tabler:motorbike' },
     ]}
   />
 
+  <!-- PUBLICACIONES Y CRÓNICAS -->
   <BlogLatestPosts
     id="eventos"
-    title="Próximos Eventos y Rodadas"
-    subtitle="Participa en nuestras actividades y salidas oficiales del Capítulo."
+    title="Crónicas y Asambleas Oficiales"
+    subtitle="Mantente informado sobre las actividades institucionales y rodadas conjuntas a nivel nacional."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-black"></div>
     </Fragment>
   </BlogLatestPosts>
 
+  <!-- FORMULARIO DE CONTACTO CENTRALIZADO -->
   <section id="contacto" class="relative py-16 bg-black border-t border-[#d4af37]/10">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-widest mb-4">¡Escríbenos!</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-widest mb-4">Secretaría General</h2>
         <p class="text-zinc-400 text-lg mb-8">
-          Si tienes consultas sobre el Capítulo o nuestras actividades benéficas, completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.
+          Si eres un Hermano con consultas de regularización, representas a una empresa interesada en nuestro programa de patrocinio o deseas coordinar asistencia social, comunícate con nosotros.
         </p>
         
         <div class="space-y-6">
           <div class="flex items-start">
             <Icon name="tabler:map-pin" class="w-6 h-6 text-[#d4af37] mr-4" />
             <div>
-              <h4 class="text-white font-bold">Presencia en el Litoral</h4>
-              <p class="text-zinc-400">Artigas, Salto, Paysandú, Rio Negro, Soriano — Uruguay</p>
+              <h4 class="text-white font-bold">Jurisdicción Nacional</h4>
+              <p class="text-zinc-400">Coordinación centralizada de Capítulos en la República Oriental del Uruguay.</p>
             </div>
           </div>
           <div class="flex items-start">
-            <Icon name="tabler:message-circle" class="w-6 h-6 text-[#d4af37] mr-4" />
+            <Icon name="tabler:shield-checkered" class="w-6 h-6 text-[#d4af37] mr-4" />
             <div>
-              <h4 class="text-white font-bold">Atención Directa</h4>
-              <p class="text-zinc-400">Canal oficial de comunicación vía web.</p>
+              <h4 class="text-white font-bold">Canal de Validación</h4>
+              <p class="text-zinc-400">Trámites y registros oficiales de membresía regular.</p>
             </div>
           </div>
         </div>
@@ -165,24 +170,25 @@ const footerData = {
             <input type="email" name="email" id="email" required class="w-full bg-black border border-zinc-700 text-white rounded px-4 py-3 focus:border-[#d4af37] outline-none transition-colors" />
           </div>
           <div>
-            <label for="message" class="block text-sm font-medium text-zinc-300 mb-1">Tu mensaje</label>
+            <label for="message" class="block text-sm font-medium text-zinc-300 mb-1">Mensaje o Consulta Institucional</label>
             <textarea id="message" name="message" rows="4" required class="w-full bg-black border border-zinc-700 text-white rounded px-4 py-3 focus:border-[#d4af37] outline-none transition-colors"></textarea>
           </div>
           <button type="submit" class="w-full bg-[#d4af37] text-black font-bold py-3 rounded uppercase tracking-widest hover:bg-white transition-all">
-            Enviar mensaje
+            Enviar a Secretaría
           </button>
         </form>
       </div>
     </div>
   </section>
 
+  <!-- FRASÉ DE CIERRE REVISADA -->
   <section class="py-16 bg-black border-t border-[#d4af37]/20">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 uppercase tracking-widest">
-        Widows Sons <span class="text-[#d4af37]">Rio Uruguay</span>
+        Gran Capítulo de <span class="text-[#d4af37]">Widows Sons Uruguay</span>
       </h2>
       <p class="text-xl text-zinc-400 max-w-2xl mx-auto italic font-light">
-        "No rodamos para escapar de la vida, sino para que la vida no se nos escape."
+        "Conducirse con rectitud en el templo de la ruta, uniendo los eslabones bajo el honor y la virtud."
       </p>
       <div class="mt-8 w-24 h-px bg-[#d4af37] mx-auto opacity-50"></div>
     </div>
