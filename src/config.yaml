@@ -1,5 +1,5 @@
 site:
-  name: Widows Sons Rio Uruguay
+  name: Widows Sons — Gran Capítulo
   site: 'https://www.wsriouruguay.com'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Metadatos SEO
 metadata:
   title:
-    default: Widows Sons — Capítulo Rio Uruguay
+    default: Widows Sons — Gran Capítulo
     template: '%s — Widows Sons'
   description: 'Sitio oficial de los Widows Sons, Capítulo Rio Uruguay. Fraternidad, motociclismo y caridad en el litoral uruguayo.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Widows Sons Rio Uruguay
+    site_name: Widows Sons — Gran Capítulo
     images:
       - url: '~/assets/images/default.png'
         width: 1200
