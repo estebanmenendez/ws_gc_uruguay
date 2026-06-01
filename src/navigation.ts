@@ -23,10 +23,10 @@ export const footerData = {
       ],
     },
     {
-      title: 'Capítulos Oficiales',
+      title: 'Chapters Oficiales',
       links: [
-        { text: 'Capítulo Río Uruguay', href: 'https://www.wsriouruguay.com' },
-        { text: 'Capítulo Río Cuareim', href: 'https://www.wsriocuareim.com' },
+        { text: 'Chapter Río Uruguay', href: 'https://www.wsriouruguay.com' },
+        { text: 'Chapter Río Cuareim', href: 'https://www.wsriocuareim.com' },
       ],
     },
   ],
