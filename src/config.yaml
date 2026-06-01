@@ -11,7 +11,7 @@ metadata:
   title:
     default: Gran Chapter Widows Sons Uruguay
     template: '%s — Widows Sons Uruguay'
-  description: 'Sitio oficial del Gran Chapter de Widows Sons Uruguay. Máxima autoridad, orden rector y regularidad de los Maestros Masones motociclistas.' # <--- CORREGIDO: Enfoque nacional
+  description: 'Sitio oficial del Gran Chapter de Widows Sons Uruguay. Máxima Autoridad y Órgano Rector en Uruguay de WIDOWS SONS MASONIC RIDERS ASSOCIATION.' # <--- CORREGIDO: Enfoque nacional
   robots:
     index: true
     follow: true
