@@ -36,7 +36,7 @@ export const footerData = {
     { text: 'Filantropía', href: '#' },
   ],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/ws_granchapter_uruguay' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/widows_sons_uruguay' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/tu_cuenta_gran_capitulo' },
   ],
   footNote: `
