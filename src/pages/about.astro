@@ -6,39 +6,38 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Quiénes Somos — Widows Sons Río Uruguay',
+  title: 'Quiénes Somos — Gran Capítulo de Widows Sons Uruguay',
 };
 ---
 
 <Layout metadata={metadata}>
+  <!-- 1. IDENTIDAD INSTITUCIONAL (ENFOQUE NACIONAL) -->
   <Hero
-    tagline="Nuestra Identidad"
+    tagline="Máxima Autoridad Nacional"
     image={{
       src: '~/assets/images/img1.png',
-      alt: 'Widows Sons Río Uruguay',
+      alt: 'Gran Capítulo de Widows Sons Uruguay',
     }}
   >
     <Fragment slot="title">
       Widows Sons <br />
-      <span class="text-[#d4af37] dark:text-[#d4af37]">Capítulo Río Uruguay</span>
+      <span class="text-[#d4af37] dark:text-[#d4af37]">Gran Capítulo de Uruguay</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Somos una hermandad de Maestros Masones activos que, bajo los principios universales de la Masonería, 
-      encuentran en el motociclismo un vehículo de unión, servicio y presencia en la comunidad. 
-      Nuestro nombre, <strong>“Hijos de la Viuda”</strong>, representa nuestro compromiso con la lealtad, 
-      la integridad, la solidaridad y el honor.
+      Somos el cuerpo gobernante y la máxima autoridad representativa de los Maestros Masones activos que comparten la pasión por el motociclismo en todo el Uruguay. Bajo nuestra carta patente, velamos por el cumplimiento de los principios universales de la Masonería, guiando y unificando los esfuerzos de nuestros capítulos subordinados en sus misiones de servicio, honor y filantropía a nivel nacional.
     </Fragment>
   </Hero>
 
+  <!-- 2. NUESTRA MISIÓN -->
   <Features3
-    title="Nuestra Misión"
-    subtitle="La fraternidad no se declama, se demuestra."
+    title="Nuestra Misión Nacional"
+    subtitle="Gobernar con rectitud, unificar las rutas y expandir la cadena de unión filantrópica."
     columns={4}
     items={[
-      { title: 'Filantropía', description: 'Nuestro Propósito', icon: 'tabler:heart-handshake' },
-      { title: 'Educación', description: 'Nuestra Base', icon: 'tabler:book' },
-      { title: 'Social', description: 'Nuestro Impacto', icon: 'tabler:users' },
+      { title: 'Filantropía', description: 'Coordinación Nacional', icon: 'tabler:heart-handshake' },
+      { title: 'Carta Patente', description: 'Nuestra Base Legal', icon: 'tabler:gavel' },
+      { title: 'Unidad', description: 'Nuestro Impacto', icon: 'tabler:users' },
       { title: 'Fraternidad', description: 'Nuestro Motor', icon: 'tabler:engine' },
     ]}
     classes={{
@@ -46,41 +45,27 @@ const metadata = {
     }}
   />
 
+  <!-- 3. JURISDICCIÓN Y CAPÍTULOS (ESTRATEGIA DE CORRELACIÓN) -->
   <Features3
-    title="Presencia en la Región y el País"
-    subtitle="Consolidando un espacio que trasciende fronteras geográficas y fortalece los vínculos humanos en el litoral oeste y todo el Uruguay."
+    title="Jurisdicción y Capítulos Activos"
+    subtitle="Como Órgano Madre, el Gran Capítulo coordina, respalda y valida las acciones de las extensiones legítimas de la hermandad en el territorio uruguayo."
     columns={3}
     isBeforeContent={true}
     items={[
       {
-        title: 'Río Negro (Sede)',
-        description: 'Base de nuestras operaciones y gestión institucional del Capítulo.',
+        title: 'Gran Capítulo (Sede Central)',
+        description: 'Punto de coordinación general, gestión de membresías nacionales y relaciones internacionales de la orden.',
+        icon: 'tabler:shield-checkered',
+      },
+      {
+        title: 'Capítulo Río Uruguay',
+        description: 'Jurisdicción del litoral oeste (Río Negro, Paysandú, Salto, Soriano y Artigas), coordinando rutas y filantropía regional.',
         icon: 'tabler:map-pin-filled',
       },
       {
-        title: 'Artigas',
-        description: 'Representación en el extremo norte, uniendo a los hermanos de la frontera.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Salto',
-        description: 'Extensión de nuestra presencia fraternal y compromiso con la comunidad salteña.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Paysandú',
-        description: 'Punto de encuentro y coordinación para nuestras rutas y paradas solidarias.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Soriano',
-        description: 'Fortaleciendo la cadena de unión en el sur de nuestra zona de influencia.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Alcance Nacional',
-        description: 'Colaboramos con otros Capítulos para extender el espíritu filantrópico a todo el Uruguay.',
-        icon: 'tabler:world-latitude',
+        title: 'Capítulo Río Cuareim',
+        description: 'Jurisdicción y presencia en la frontera norte, uniendo lazos fraternales y misiones solidarias en los límites del territorio.',
+        icon: 'tabler:map-pin-filled',
       },
     ]}
     classes={{
@@ -88,47 +73,49 @@ const metadata = {
     }}
   />
 
+  <!-- 4. NUESTROS VALORES -->
   <Steps2
-    title="Nuestros Valores"
-    subtitle="Los pilares masónicos que guían cada kilómetro de nuestra marcha."
+    title="Nuestros Valores Rectores"
+    subtitle="Los pilares institucionales que guían la gobernanza y cada kilómetro de nuestra marcha."
     items={[
       {
-        title: 'Fraternidad y Servicio',
-        description: 'Unión genuina entre hermanos y vocación constante de ayuda desinteresada.',
+        title: 'Institucionalidad y Orden',
+        description: 'Preservación de la regularidad, las tradiciones de la orden y el respeto a las autoridades masónicas.',
       },
       {
-        title: 'Respeto y Compromiso',
-        description: 'Respeto por las personas e instituciones, con acción social sostenida.',
+        title: 'Filantropía Centralizada',
+        description: 'Estrategia de apoyo y distribución de recursos para maximizar el impacto social en las comunidades vulnerables.',
       },
       {
-        title: 'Honor',
-        description: 'Coherencia absoluta entre lo que somos, decimos y hacemos.',
+        title: 'Unidad de la Cadena',
+        description: 'Coherencia y cohesión absoluta entre todos los capítulos del país bajo un mismo espíritu fraternal.',
       },
     ]}
   />
 
+  <!-- 5. NUESTRO COMPROMISO -->
   <Steps2
-    title="Nuestro Compromiso"
-    subtitle="No somos solo un grupo de motociclistas. Somos una hermandad que actúa, construye y deja huella."
+    title="Nuestro Compromiso Nacional"
+    subtitle="Garantizamos la solidez y transparencia de nuestra hermandad para construir confianza y dejar huella en la sociedad."
     isReversed={true}
     callToAction={{
-      text: 'Ver nuestras actividades',
+      text: 'Ver Actividades Nacionales',
       href: '/blog',
     }}
     items={[
       {
-        title: 'Acción Concreta',
-        description: 'Transformamos los principios en hechos visibles.',
+        title: 'Acción Regulada',
+        description: 'Respaldamos institucionalmente cada intervención de nuestros capítulos.',
         icon: 'tabler:tool',
       },
       {
-        title: 'Vínculo Humano',
-        description: 'Generamos impacto uniendo las dos orillas del Río Uruguay.',
+        title: 'Vínculo Fraternal',
+        description: 'Establecemos puentes sólidos entre los diferentes capítulos y la sociedad civil.',
         icon: 'tabler:users-group',
       },
       {
-        title: 'Referente Regional',
-        description: 'Ejemplo de civismo y fraternidad en la vía pública.',
+        title: 'Referente Institucional',
+        description: 'Máximo ejemplo de civismo, regularidad y rectitud masónica en las rutas públicas.',
         icon: 'tabler:certificate',
       },
     ]}
@@ -137,39 +124,41 @@ const metadata = {
     }}
   />
 
+  <!-- 6. TERRITORIO DE INFLUENCIA -->
   <Features2
-    title="Dónde nos encontramos"
-    tagline="Territorio"
+    title="Ámbito de Gestión"
+    tagline="Jurisdicción"
     columns={3}
     items={[
       {
-        title: 'Litoral Oeste',
-        description: 'Zona principal de influencia y rodadas.',
+        title: 'Territorio Nacional',
+        description: 'Gobernanza completa que abarca la totalidad de los departamentos del Uruguay.',
       },
       {
-        title: 'Sedes Masónicas',
-        description: 'Puntos de encuentro institucional.',
+        title: 'Logias Regulares',
+        description: 'Vinculación directa con los puntos de encuentro y talleres de la masonería nacional.',
       },
       {
-        title: 'Rutas Solidarias',
-        description: 'Presencia itinerante en comunidades locales.',
+        title: 'Rutas de Integración',
+        description: 'Supervisión de encuentros inter-capitulares y paradas solidarias conjuntas.',
       },
     ]}
   />
 
+  <!-- 7. CONTACTO CENTRALIZADO -->
   <Features2
-    title="Contacto Institucional"
+    title="Contacto Institucional Central"
     tagline="Comunícate"
     columns={2}
     items={[
       {
-        title: 'Mensaje Directo',
-        description: 'Coordinación de apoyo y campañas solidarias.',
+        title: 'Secretaría General',
+        description: 'Coordinación de convenios empresariales, sponsors nacionales y propuestas filantrópicas.',
         icon: 'tabler:messages',
       },
       {
-        title: 'Membresía',
-        description: 'Información para Maestros Masones interesados.',
+        title: 'Regularización y Membresía',
+        description: 'Trámites de afiliación y validación de credenciales para Maestros Masones en el país.',
         icon: 'tabler:id-badge-2',
       },
     ]}
